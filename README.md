@@ -1,2 +1,2 @@
-# front-end-dev
-just for personal study
+# front-end-study
+It is just for personal study
