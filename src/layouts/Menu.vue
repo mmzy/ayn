@@ -15,6 +15,7 @@
         <ol>
           <li><router-link :to="{path: '/staycenter'}">居中</router-link></li>
           <li><router-link :to="{path: '/samehcols'}">多列等高</router-link></li>
+          <li><router-link :to="{path: '/triangle'}">css实现三角形</router-link></li>
         </ol>
       </div>
       <div class="chapter">

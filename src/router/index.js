@@ -4,6 +4,7 @@ import Menu from '@/layouts/Menu'
 import HelloWorld from '@/layouts/HelloWorld'
 import StayCenter from '@/layouts/StayCenter'
 import SameHCols from '@/layouts/SameHCols'
+import TriangleCss from '@/layouts/TriangleCss'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/samehcols',
       name: 'SameHCols',
       component: SameHCols
+    },
+    {
+      path: '/triangle',
+      name: 'TriangleCss',
+      component: TriangleCss
     }
   ]
 })
