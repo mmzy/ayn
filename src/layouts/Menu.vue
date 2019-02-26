@@ -13,9 +13,8 @@
       <div class="chapter">
         <h2>ch2: css</h2>
         <ol>
-          <li>
-            <router-link :to="{path: '/samehcols'}">多列等高</router-link>
-          </li>
+          <li><router-link :to="{path: '/staycenter'}">居中</router-link></li>
+          <li><router-link :to="{path: '/samehcols'}">多列等高</router-link></li>
         </ol>
       </div>
       <div class="chapter">
