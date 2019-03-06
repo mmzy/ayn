@@ -5,6 +5,7 @@ import HelloWorld from '@/layouts/HelloWorld'
 import StayCenter from '@/layouts/StayCenter'
 import SameHCols from '@/layouts/SameHCols'
 import TriangleCss from '@/layouts/TriangleCss'
+import OnePx from '@/layouts/OnePx'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/triangle',
       name: 'TriangleCss',
       component: TriangleCss
+    },
+    {
+      path: '/onepx',
+      name: 'OnePx',
+      component: OnePx
     }
   ]
 })
