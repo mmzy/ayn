@@ -6,6 +6,7 @@ import StayCenter from '@/layouts/StayCenter'
 import SameHCols from '@/layouts/SameHCols'
 import TriangleCss from '@/layouts/TriangleCss'
 import OnePx from '@/layouts/OnePx'
+import ParallaxScroll from '@/layouts/ParallaxScroll'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/onepx',
       name: 'OnePx',
       component: OnePx
+    },
+    {
+      path: '/parallaxscroll',
+      name: 'ParallaxScroll',
+      component: ParallaxScroll
     }
   ]
 })
