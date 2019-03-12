@@ -6,7 +6,7 @@
         <h2>ch1: html</h2>
         <ol>
           <li>
-            <router-link :to="{path: '/hello'}">hello world</router-link>
+            <router-link :to="{path: '/hello'}">test hello world</router-link>
           </li>
         </ol>
       </div>
@@ -22,7 +22,13 @@
       </div>
       <div class="chapter">
         <h2>ch3: js</h2>
-        <ol></ol>
+        <ol>
+          <li><router-link :to="{path: '/staycenter'}">sleep实现</router-link></li>
+          <li><router-link :to="{path: '/staycenter'}">sleep实现</router-link></li>
+          <li><router-link :to="{path: '/staycenter'}">sleep实现</router-link></li>
+          <li><router-link :to="{path: '/staycenter'}">sleep实现</router-link></li>
+          <li><router-link :to="{path: '/staycenter'}">sleep实现</router-link></li>
+        </ol>
       </div>
     </div>
   </div>
