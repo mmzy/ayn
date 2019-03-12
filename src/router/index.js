@@ -7,6 +7,7 @@ import SameHCols from '@/layouts/SameHCols'
 import TriangleCss from '@/layouts/TriangleCss'
 import OnePx from '@/layouts/OnePx'
 import ParallaxScroll from '@/layouts/ParallaxScroll'
+import Sleep from '@/layouts/Sleep'
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/parallaxscroll',
       name: 'ParallaxScroll',
       component: ParallaxScroll
+    },
+    {
+      path: '/sleep',
+      name: 'Sleep',
+      component: Sleep
     }
   ]
 })

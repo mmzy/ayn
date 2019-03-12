@@ -17,17 +17,17 @@
           <li><router-link :to="{path: '/samehcols'}">多列等高</router-link></li>
           <li><router-link :to="{path: '/triangle'}">css实现三角形</router-link></li>
           <li><router-link :to="{path: '/onepx'}">1px实现</router-link></li>
-          <li><router-link :to="{path: '/parallaxscroll'}">视差滚动</router-link></li>
+          <li><router-link :to="{path: '/parallaxscroll'}">视差滚动?</router-link></li>
         </ol>
       </div>
       <div class="chapter">
         <h2>ch3: js</h2>
         <ol>
-          <li><router-link :to="{path: '/staycenter'}">sleep实现</router-link></li>
-          <li><router-link :to="{path: '/staycenter'}">sleep实现</router-link></li>
-          <li><router-link :to="{path: '/staycenter'}">sleep实现</router-link></li>
-          <li><router-link :to="{path: '/staycenter'}">sleep实现</router-link></li>
-          <li><router-link :to="{path: '/staycenter'}">sleep实现</router-link></li>
+          <li><router-link :to="{path: '/sleep'}">sleep实现</router-link></li>
+          <li><router-link :to="{path: '/a'}">a</router-link></li>
+          <li><router-link :to="{path: '/a'}">b</router-link></li>
+          <li><router-link :to="{path: '/a'}">c</router-link></li>
+          <li><router-link :to="{path: '/a'}">d</router-link></li>
         </ol>
       </div>
     </div>

@@ -26,9 +26,9 @@ export default {
 <style lang="less" scoped>
 .container {
   position: relative;
-  left: 200px;
+  left: 100px;
   width: 1100px;
-  height: 650px;
+  height: 350px;
   border: solid 1px black;
   .container1, .container2, .container3, .container4, .container5 {
     position: relative;
@@ -36,7 +36,7 @@ export default {
     margin-left: 10px;
     margin-top: 10px;
     width: 200px;
-    height: 600px;
+    height: 300px;
     background-color: gray;
   }
   .container1 {
