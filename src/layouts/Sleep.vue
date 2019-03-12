@@ -27,10 +27,10 @@ export default {
     sleep1 () {
       alert(1)
     },
-    sleep2: function() {
+    sleep2: function () {
       alert(2)
     },
-    sleep3: function() {
+    sleep3: function () {
       alert(3)
     }
   }
