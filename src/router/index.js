@@ -8,7 +8,7 @@ import TriangleCss from '@/layouts/TriangleCss'
 import OnePx from '@/layouts/OnePx'
 import ParallaxScroll from '@/layouts/ParallaxScroll'
 import Sleep from '@/layouts/Sleep'
-import BindFunc from '@/layouts/BindFunc'
+// import BindFunc from '@/layouts/BindFunc'
 
 Vue.use(Router)
 
@@ -54,10 +54,10 @@ export default new Router({
       name: 'Sleep',
       component: Sleep
     },
-    {
-      path: '/bind',
-      name: 'BindFunc',
-      component: BindFunc
-    }
+    // {
+    //   path: '/bind',
+    //   name: 'BindFunc',
+    //   component: BindFunc
+    // }
   ]
 })
