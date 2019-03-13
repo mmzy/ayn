@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2>sleep {{sec}}s, 计时:{{timerSec}}s</h2>
+    <h2>sleep {{sec}}s</h2>
     <div class="demo1">
       <p>方法一：promise</p>
       <input type="button" value="sleep1" class="btn" @click="sleep1"/>
@@ -10,7 +10,7 @@
       <button class="btn" @click="sleep2">sleep2</button>
     </div>
     <div class="demo3">
-      <p>方法三：generate</p>
+      <p>方法三：generator, promise</p>
       <button class="btn" @click="sleep3">sleep3</button>
     </div>
     <div class="demo4">
@@ -24,32 +24,42 @@
 export default {
   data () {
     return {
-      sec: 5,
-      timerSec: 0
+      sec: 3
     }
   },
   methods: {
     sleep1 () {
-      alert(1)
+      this.promiseFunc().then((data) => {
+        alert(data + '1')
+      })
     },
-    sleep2: function () {
-      alert(2)
+    sleep2: async function () {
+      let aa = await this.promiseFunc()
+      alert(aa + '2')
     },
     sleep3: function () {
-      alert(3)
+      this.generateFunc().next().value.then((data) => {
+        alert(data + '3')
+      })
     },
     sleep4 () {
       let startTime = new Date().getTime()
       let thisObj = this
-      thisObj.timerSec = 0
-      let timer = setInterval(() => {
-        thisObj.timerSec++
-      }, 1000)
       while (new Date().getTime() - startTime < thisObj.sec * 1000) {
         continue
       }
       alert(4)
-      clearInterval(timer)
+    },
+    promiseFunc () {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve('promise func')
+        }, this.sec * 1000)
+      })
+    },
+    generateFunc: function* () {
+      yield this.promiseFunc()
+      // return
     }
   }
 }
