@@ -53,7 +53,7 @@ export default new Router({
       path: '/sleep',
       name: 'Sleep',
       component: Sleep
-    },
+    }
     // {
     //   path: '/bind',
     //   name: 'BindFunc',

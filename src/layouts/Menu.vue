@@ -27,7 +27,6 @@
           <li><router-link :to="{path: '/'}">a</router-link></li>
           <li><router-link :to="{path: '/a'}">b</router-link></li>
           <li><router-link :to="{path: '/a'}">c</router-link></li>
-          <li><router-link :to="{path: '/a'}">d</router-link></li>
         </ol>
       </div>
     </div>
@@ -46,7 +45,7 @@ export default {
 
 <style lang="less" scoped>
 .container {
-  width: 1000px;
+  width: 1200px;
   height: 100%;
   h1 {
     margin-bottom: 20px;
