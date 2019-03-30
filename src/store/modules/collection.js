@@ -9,21 +9,21 @@ const getters = {
 }
 
 const mutations = {
-	pushCollects (item) {
-		state.collects.push(item)
-	}
+  pushCollects (item) {
+    state.collects.push(item)
+  }
 }
 
 const actions = {
-	invokeCollects (context, item) {
-		context.commit('pushCollects', item)
-	}
+  invokeCollects (context, item) {
+    context.commit('pushCollects', item)
+  }
 }
 
 export default {
-	namespaced: true,
-	state,
-	getters,
-	mutations,
-	actions
+  namespaced: true,
+  state,
+  getters,
+  mutations,
+  actions
 }
