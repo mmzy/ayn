@@ -5,7 +5,6 @@ import footerStatus from './modules/footerStatus'
 
 Vue.use(Vuex)
 
-const state = {}
 const store = new Vuex.Store({
   modules: {
     collection,
