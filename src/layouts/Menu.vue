@@ -18,6 +18,7 @@
           <li><router-link :to="{path: '/triangle'}">css实现三角形</router-link></li>
           <li><router-link :to="{path: '/onepx'}">1px实现</router-link></li>
           <li><router-link :to="{path: '/parallaxscroll'}">视差滚动?</router-link></li>
+          <li><router-link :to="{path: '/alignjustify'}">两端对齐</router-link></li>
         </ol>
       </div>
       <div class="chapter">

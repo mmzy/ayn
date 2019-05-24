@@ -9,6 +9,7 @@ import OnePx from '@/layouts/OnePx'
 import ParallaxScroll from '@/layouts/ParallaxScroll'
 import Sleep from '@/layouts/Sleep'
 // import BindFunc from '@/layouts/BindFunc'
+import AlignJustify from '@/layouts/AlignJustify'
 
 Vue.use(Router)
 
@@ -53,11 +54,16 @@ export default new Router({
       path: '/sleep',
       name: 'Sleep',
       component: Sleep
-    }
+    },
     // {
     //   path: '/bind',
     //   name: 'BindFunc',
     //   component: BindFunc
     // }
+    {
+      path: '/alignjustify',
+      name: 'alignjustify',
+      component: AlignJustify
+    }
   ]
 })
