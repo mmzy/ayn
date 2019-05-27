@@ -25,9 +25,6 @@
         <h2>ch3: js</h2>
         <ol>
           <li><router-link :to="{path: '/sleep'}">sleep实现</router-link></li>
-          <li><router-link :to="{path: '/'}">a</router-link></li>
-          <li><router-link :to="{path: '/a'}">b</router-link></li>
-          <li><router-link :to="{path: '/a'}">c</router-link></li>
         </ol>
       </div>
     </div>
